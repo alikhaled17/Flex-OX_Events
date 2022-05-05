@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import { useQuery } from 'react-query'
-import EventCard from '../components/EventCard'
-import DeviderLine from '../StyledComponents/DeviderLine'
-import SubTitle from '../StyledComponents/SubTitle'
-import styles from '../styles/Home.module.css'
+import EventCard from '../../components/EventCard'
+import DeviderLine from '../../StyledComponents/DeviderLine'
+import SubTitle from '../../StyledComponents/SubTitle'
+import styles from '../../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
