@@ -2,7 +2,15 @@ import React from 'react'
 import Image from 'next/image'
 import CardStyled from '../StyledComponents/CardStyled'
 
-export default function EventCard({event, size}:any) {
+type BoxProps = {
+    children: React.ReactNode;
+    event: any;
+    id: string;
+    size: string;
+
+};
+
+export default function EventCard({event, size, id}:BoxProps) {
     return (
         <CardStyled size={size}>
 

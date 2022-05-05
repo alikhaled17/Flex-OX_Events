@@ -22,16 +22,16 @@ const Home: NextPage = () => {
       <div className={styles.main} >
         <SubTitle>Today, Jan 20</SubTitle>
         <DeviderLine />
-        {data.today.map((ev:object) => (<EventCard size="" event={ev} />))}
+        {data.today.map((ev:object) => (<EventCard key={ev.id} size="" event={ev} />))}
 
         <SubTitle>Tomorrow, Jan 21</SubTitle>
         <DeviderLine />
-        {data.tommorow.map((ev:object) => (<EventCard size="" event={ev} />))}
+        {data.tommorow.map((ev:object) => (<EventCard key={ev.id} size="" event={ev} />))}
         
       </div>
       <div className={styles.side_area} >
         <SubTitle>Your next events</SubTitle>
-        {data.next.map((ev:object) => (<EventCard size="small" event={ev} />))}
+        {data.next.map((ev:object) => (<EventCard key={ev.id} size="small" event={ev} />))}
       </div>
     </div>
   )
