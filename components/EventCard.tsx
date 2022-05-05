@@ -7,10 +7,10 @@ type BoxProps = {
     event: any;
     id: string;
     size: string;
-
+    key: any;
 };
 
-export default function EventCard({event, size, id}:BoxProps) {
+export default function EventCard({event, size}:BoxProps) {
     return (
         <CardStyled size={size}>
 
