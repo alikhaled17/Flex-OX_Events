@@ -1,0 +1,18 @@
+{
+    "events" : {
+        "today": [
+            {"id": 1, "title": "Fireside Chat: Meet ACME CEO Amy Miller", "office": "District 2 HQ", "type":"In Person", "date": "WED, JAN 20, 17:00 - 18:15 EEST", "img":"event_one.jpg"},
+            {"id": 3, "title": "🍕 Let's Celebrate – Team Lunch", "office": "District 2 HQ · Pizza Place", "type":"Online", "date": "Today, 18:15", "img":""},
+            {"id": 2, "title": "Any mechanical keyboard enthusiasts in design?", "office": "District 2 HQ","type":"In Person", "date": "WED, JAN 20, 17:00 - 18:15 EEST", "img":"event_two.jpg"}
+        ],
+        "tommorow": [
+            {"id": 1, "title": "Fireside Chat: Meet ACME CEO Amy Miller", "office": "District 2 HQ", "type":"In Person", "date": "WED, JAN 20, 17:00 - 18:15 EEST", "img":"event_one.jpg"},
+            {"id": 2, "title": "Any mechanical keyboard enthusiasts in design?", "office": "District 2 HQ","type":"In Person", "date": "WED, JAN 20, 17:00 - 18:15 EEST", "img":"event_two.jpg"},
+            {"id": 3, "title": "🍕 Let's Celebrate – Team Lunch", "office": "District 2 HQ · Pizza Place", "type":"Online", "date": "Tommorow, 18:15", "img":""}
+        ],
+        "next": [
+            {"id": 1, "title": "🍕 Let's Celebrate – Team Lunch", "office": "District 2 HQ · Pizza Place", "type":"Online", "date": "Today, 18:15", "img":""},
+            {"id": 2, "title": "Fireside Chat: Meet ACME CEO Amy Miller", "office": "District 2 HQ", "type":"In Person", "date": "WED, JAN 20, 17:00 - 18:15 EEST", "img":"event_one.jpg"}
+        ]
+    }
+}
